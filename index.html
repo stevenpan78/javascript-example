@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Directives in app</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style type="text/css">
+    	#test{
+    		background:green;
+    	}
+    </style>
+    <script type="text/javascript" src="js/angular.js"></script>
+</head>
+<body>
+	<!-- directive:good-direct -->
+	<p class="good-direct" style="color:blue"></p>
+	<div good-direct></div>
+	<good-Direct style="color: gray"></good-Direct>
+    <pane></pane>
+    <div id="test" class="dv" style="background:red">Double clicking shows click count</div>
+    <button id="bn">CLICK</button>
+    <button id="bn2" ondblclick="double()">Btn was double clicked!</button>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/mainDirective.js"></script>
+</body>
+</html>

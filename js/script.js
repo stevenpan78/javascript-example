@@ -1,0 +1,1 @@
+function fnc(){console.log(event.type),console.log(event.clientX),console.log(event.clientY)}function double(){_ByID("bn2").innerHTML=event.type}var _ByID=function(n){return document.getElementById(n)};_ByID("test").addEventListener("dblclick",function(){_ByID("test").innerHTML="click count: "+event.detail},!1),_ByID("bn").onclick=fnc;

@@ -1,0 +1,1 @@
+angular.module("myApp").directive("goodDirect",function(){return{restrict:"EACM",replace:!0,template:"<h1>This is a list</h1>"}}).directive("pane",function(){return{restrict:"EACM",template:"<ul><li>item1</li><li>item2</li><li>item3</li><li>item4</li><li>item5</li></ul>"}});
